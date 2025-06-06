@@ -1,0 +1,45 @@
+# Build output
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# VSCode settings
+.vscode/
+
+# Binaries and intermediate files
+*.o
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.so
+*.dSYM/
+*.exe
+*.log
+
+# Compiled simulation artifacts
+*.dump
+*.img
+*.mem
+*.sim
+
+# Clang-format backup
+*.orig
+
+# Unit test logs or reports
+test-results/
+*.gcno
+*.gcda
+*.gcov
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+
+/extern/ELFIO/build/
+/extern/ELFIO/.vs/
+
