@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Manually add the include path to ELFIO
 include_directories(${CMAKE_SOURCE_DIR}/extern/ELFIO)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(rv64sim src/main.cpp)
+add_executable(rv64sim src/main.cpp src/Memory.cpp)
 
